@@ -47,4 +47,4 @@ This project is licensed under [**GRAD APLv1.1**](https://github.com/???/grad_cl
 Downloads can be found under [Releases](https://github.com/???/grad_clipOverlay/releases).
 
 #### Steam Workshop
-Subscribe to GRAD ClipOverlay on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=) and automatically get the latest releases.
+Subscribe to Gruppe Adler Clip Overlay on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=) and automatically get the latest releases.

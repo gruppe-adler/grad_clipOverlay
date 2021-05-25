@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/y0014984/grad_clipOverlay/raw/master/images/config_menu.jpg" width="512">
+    <img src="https://github.com/y0014984/grad_clipOverlay/raw/master/screenshots/config_menu.jpg" width="512">
 </p>
 
 <p align="center">

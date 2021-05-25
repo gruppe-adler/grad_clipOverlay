@@ -1,0 +1,16 @@
+name = "Gruppe Adler Clip Overlay"
+prefix = "grad_clipOverlay"
+author = "y0014984"
+template = "cba"
+mainprefix = "z"
+folder_optionals = true
+sig_version = 3
+
+files = [
+    "mod.cpp",
+    "README.md",
+	"grad_clipOverlay_logo_256x256.paa",
+	"grad_clipOverlay_logo_256x256_hover.paa",
+	"grad_clipOverlay_logo_512x512.paa",
+	"grad_clipOverlay_logo_1024x512.paa"
+]

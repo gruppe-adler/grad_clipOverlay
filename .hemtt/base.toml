@@ -9,6 +9,7 @@ sig_version = 3
 files = [
     "mod.cpp",
     "README.md",
+	"LICENSE",
 	"grad_clipOverlay_logo_256x256.paa",
 	"grad_clipOverlay_logo_256x256_hover.paa",
 	"grad_clipOverlay_logo_512x512.paa",

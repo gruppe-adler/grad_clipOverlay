@@ -1,3 +1,8 @@
+<p align="center">
+    <sup><strong>Visit Gruppe Adler on <a href="https://www.gruppe-adler.de/">our Website</a> | <a
+    href="https://www.youtube.com/user/gruppeadler">YouTube</a> | <a href="https://twitter.com/Gruppe_Adler">Twitter</a></strong></sup>
+</p>
+
 # Gruppe Adler Clip Overlay
 Gruppe Adler Clip Overlay (GRAD_clipOverlay) is a mod for Arma 3, which allows you to use images/logos and texts like in edited videos/clips, directly in Arma 3 as an customizable Overlay.
 

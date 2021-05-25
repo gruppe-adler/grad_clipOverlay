@@ -1,4 +1,8 @@
 <p align="center">
+    <img src="https://github.com/y0014984/grad_clipOverlay/raw/master/images/comfig_menu.jpg" width="512">
+</p>
+
+<p align="center">
     <sup><strong>Visit Gruppe Adler on <a href="https://www.gruppe-adler.de/">our Website</a> | <a
     href="https://www.youtube.com/user/gruppeadler">YouTube</a> | <a href="https://twitter.com/Gruppe_Adler">Twitter</a></strong></sup>
 </p>

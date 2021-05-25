@@ -14,7 +14,7 @@ Gruppe Adler Clip Overlay (GRAD_clipOverlay) is a mod for Arma 3, which allows y
 - Show/Hide overlay with ALT+F12
 - Configure Settings with SHIFT+ALT+F12
 - Change text- and image locations
-- load cutom images by path
+- load custom images by path
 - load predefined GRAD images
 - change keybindings in mod related CBA key binding menu
 

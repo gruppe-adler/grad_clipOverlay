@@ -1,5 +1,26 @@
 <p align="center">
-    <img src="https://github.com/y0014984/grad_clipOverlay/raw/master/screenshots/config_menu.jpg" width="1024">
+    <img src="https://github.com/y0014984/grad_clipOverlay/raw/master/images/config_menu.jpg" width="512">
+</p>
+
+<p align="center">
+    <a href="https://github.com/y0014984/grad_clipOverlay/releases/latest">
+        <img src="https://img.shields.io/github/release/DerZade/grad_slinghelmet.svg?style=flat-square" alt="Version">
+    </a>
+    <a href="https://github.com/y0014984/grad_clipOverlay/issues">
+        <img src="https://img.shields.io/github/issues-raw/DerZade/grad_slinghelmet.svg?style=flat-square&label=Issues" alt="Issues">
+    </a>
+    <a href="https://github.com/y0014984/grad_clipOverlay/releases">
+        <img src="https://img.shields.io/github/downloads/DerZade/grad_slinghelmet/total.svg?style=flat-square&label=Downloads" alt="GitHub Releases">
+    </a>
+    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=???">
+        <img src="https://img.shields.io/badge/Steam-Workshop-1B2838.svg?style=flat-square" alt="Steam Workshop">
+    </a>
+    <a href="https://forums.bohemia.net/forums/topic/???/">
+        <img src="https://img.shields.io/badge/BIF-Thread-lightgrey.svg?style=flat-square" alt="BIF Thread">
+    </a>
+    <a href="https://github.com/???/grad_clipOverlay/blob/master/LICENSE">
+        <img src="https://img.shields.io/badge/License-GRAD_APLv1.1-red.svg?style=flat-square" alt="License">
+    </a>
 </p>
 
 <p align="center">
@@ -14,7 +35,7 @@ Gruppe Adler Clip Overlay (GRAD_clipOverlay) is a mod for Arma 3, which allows y
 - Show/Hide overlay with ALT+F12
 - Configure Settings with SHIFT+ALT+F12
 - Change text- and image locations
-- load custom images by path
+- load cutom images by path
 - load predefined GRAD images
 - change keybindings in mod related CBA key binding menu
 

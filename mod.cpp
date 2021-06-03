@@ -5,7 +5,7 @@ author = "y0014984";
 description = "Gruppe Adler Clip Overlay v0.1.0";
 
 actionName = "GitHub";
-action = "https://github.com/y0014984/grad_clipoverlay";
+action = "https://github.com/gruppe-adler/grad_clipoverlay";
 
 logo = "grad_clipOverlay_logo_256x256.paa";
 logoOver = "grad_clipOverlay_logo_256x256_hover.paa";

@@ -188,7 +188,7 @@ class ClipOverlayConfig
 		{
 			//TITLE
 			idc = 4101;
-			text = "GRUPPE ADLER CLIP OVERLAY v0.1";
+			text = "GRUPPE ADLER CLIP OVERLAY v0.2";
 			x = 0 * GUI_GRID_W + GUI_GRID_X;
 			y = 0 * GUI_GRID_H + GUI_GRID_Y;
 			w = 40 * GUI_GRID_W;

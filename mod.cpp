@@ -2,7 +2,7 @@ name = "Gruppe Adler Clip Overlay";
 dir = "@grad_clipOverlay";
 
 author = "y0014984";
-description = "Gruppe Adler Clip Overlay v0.1.0";
+description = "Gruppe Adler Clip Overlay v0.2.0";
 
 actionName = "GitHub";
 action = "https://github.com/gruppe-adler/grad_clipoverlay";

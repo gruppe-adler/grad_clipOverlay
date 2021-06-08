@@ -36,6 +36,9 @@ Gruppe Adler Clip Overlay (GRAD_clipOverlay) is a client-side mod for Arma 3, wh
 - load predefined GRAD images
 - change keybindings in mod related CBA key binding menu
 
+## Restrictions
+- GRAD Clip Overlay works best with a 16:9 aspect ratio of the display and with an Arma 3 interface size set to "small". Dynamically adjusting the interface to respond to other aspect ratios and interface sizes is a future project.
+
 ## Dependencies
 - [CBA_A3](https://github.com/CBATeam/CBA_A3)
  

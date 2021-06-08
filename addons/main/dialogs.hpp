@@ -72,7 +72,7 @@ class RscTitles
 				y = -9.5 * GUI_GRID_H + GUI_GRID_Y;
 				w = 70 * GUI_GRID_W;
 				h = 9 * GUI_GRID_H;
-				colorBackground[] = {0,0,0,0.25};
+				colorBackground[] = {0,0,0,0.66};
 			};
 			class RscText_2102: RscText
 			{
@@ -82,7 +82,27 @@ class RscTitles
 				y = 25.5 * GUI_GRID_H + GUI_GRID_Y;
 				w = 70 * GUI_GRID_W;
 				h = 9 * GUI_GRID_H;
-				colorBackground[] = {0,0,0,0.25};
+				colorBackground[] = {0,0,0,0.66};
+			};
+			class RscText_2103: RscText
+			{
+				//TOP HEADLINE BACKGROUND
+				idc = 2103;
+				x = -15 * GUI_GRID_W + GUI_GRID_X;
+				y = -9.5 * GUI_GRID_H + GUI_GRID_Y;
+				w = 70 * GUI_GRID_W;
+				h = 3.5 * GUI_GRID_H;
+				colorBackground[] = {0,0,0,1};
+			};
+			class RscText_2104: RscText
+			{
+				//BOTTOM HEADLINE BACKGROUND
+				idc = 2104;
+				x = -15 * GUI_GRID_W + GUI_GRID_X;
+				y = 25.5 * GUI_GRID_H + GUI_GRID_Y;
+				w = 70 * GUI_GRID_W;
+				h = 3.5 * GUI_GRID_H;
+				colorBackground[] = {0,0,0,1};
 			};
 			class RscText_2201: RscText
 			{
@@ -90,11 +110,12 @@ class RscTitles
 				idc = 2201;
 				text = "HEADLINE - Additional Text | v1.2.345 (2020-11-24)";
 				x = -14 * GUI_GRID_W + GUI_GRID_X;
-				y = -9 * GUI_GRID_H + GUI_GRID_Y;
+				y = -9.5 * GUI_GRID_H + GUI_GRID_Y;
 				w = 68 * GUI_GRID_W;
 				h = 3 * GUI_GRID_H;
 				sizeEx = 3 * GUI_GRID_H;
-				colorText[] = {0.8196,0.5647,0.12157,1};
+				colorText[] = {1,1,1,1};
+				shadow = 0;
 			};
 			class RscText_2202: RscText
 			{
@@ -102,11 +123,12 @@ class RscTitles
 				idc = 2202;
 				text = "HEADLINE - Additional Text | v1.2.345 (2020-11-24)";
 				x = -14 * GUI_GRID_W + GUI_GRID_X;
-				y = 26 * GUI_GRID_H + GUI_GRID_Y;
+				y = 25.5 * GUI_GRID_H + GUI_GRID_Y;
 				w = 68 * GUI_GRID_W;
 				h = 3 * GUI_GRID_H;
 				sizeEx = 3 * GUI_GRID_H;
-				colorText[] = {0.8196,0.5647,0.12157,1};
+				colorText[] = {1,1,1,1};
+				shadow = 0;
 			};
 			class RscText_2301: RscText
 			{
@@ -115,11 +137,13 @@ class RscTitles
 				style = ST_MULTI + ST_NO_RECT;
 				text = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.";
 				x = -14 * GUI_GRID_W + GUI_GRID_X;
-				y = -6.5 * GUI_GRID_H + GUI_GRID_Y;
+				y = -6 * GUI_GRID_H + GUI_GRID_Y;
 				w = 68 * GUI_GRID_W;
 				h = 5 * GUI_GRID_H;
 				sizeEx = 2 * GUI_GRID_H;
+				colorText[] = {1,1,1,1};
 				lineSpacing = 0.75;
+				shadow = 0;
 			};
 			class RscText_2302: RscText
 			{
@@ -128,11 +152,13 @@ class RscTitles
 				style = ST_MULTI + ST_NO_RECT;
 				text = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.";
 				x = -14 * GUI_GRID_W + GUI_GRID_X;
-				y = 28.5 * GUI_GRID_H + GUI_GRID_Y;
+				y = 29 * GUI_GRID_H + GUI_GRID_Y;
 				w = 68 * GUI_GRID_W;
 				h = 5 * GUI_GRID_H;
 				sizeEx = 2 * GUI_GRID_H;
+				colorText[] = {1,1,1,1};
 				lineSpacing = 0.75;
+				shadow = 0;
 			};
 		};
 	};

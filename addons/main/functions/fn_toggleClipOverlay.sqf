@@ -36,6 +36,9 @@ if (_toggle == false) then
 
 	_backgroundTop = _displayClipOverlay displayCtrl 2101;
 	_backgroundBottom = _displayClipOverlay displayCtrl 2102;
+	
+	_backgroundHeadlineTop = _displayClipOverlay displayCtrl 2103;
+	_backgroundHeadlineBottom = _displayClipOverlay displayCtrl 2104;
 
 	_editBoxHeadlineTop = _displayClipOverlay displayCtrl 2201;
 	_editBoxHeadlineBottom = _displayClipOverlay displayCtrl 2202;
@@ -54,12 +57,14 @@ if (_toggle == false) then
 	if (_textTopVisible) then
 	{
 		_backgroundTop ctrlShow true;
+		_backgroundHeadlineTop ctrlShow true;
 		_editBoxHeadlineTop ctrlShow true;
 		_editBoxSubHeadlineTop ctrlShow true;
 	}
 	else
 	{
 		_backgroundTop ctrlShow false;
+		_backgroundHeadlineTop ctrlShow false;
 		_editBoxHeadlineTop ctrlShow false;
 		_editBoxSubHeadlineTop ctrlShow false;
 	};
@@ -67,12 +72,14 @@ if (_toggle == false) then
 	if (_textBottomVisible) then
 	{
 		_backgroundBottom ctrlShow true;
+		_backgroundHeadlineBottom ctrlShow true;
 		_editBoxHeadlineBottom ctrlShow true;
 		_editBoxSubHeadlineBottom ctrlShow true;
 	}
 	else
 	{
 		_backgroundBottom ctrlShow false;
+		_backgroundHeadlineBottom ctrlShow false;
 		_editBoxHeadlineBottom ctrlShow false;
 		_editBoxSubHeadlineBottom ctrlShow false;
 	};

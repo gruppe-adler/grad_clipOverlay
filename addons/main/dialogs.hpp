@@ -5,6 +5,7 @@ class RscText;
 class RscEdit;
 class RscCheckbox;
 class RscButton;
+class RscCombo;
 
 /* ================================================================================ */
 
@@ -24,7 +25,7 @@ class RscTitles
 				// TOP LEFT IMAGE
 				idc = 2001;
 				style = ST_PICTURE + ST_KEEP_ASPECT_RATIO;
-				text = "\z\grad_clipOverlay\addons\main\images\grad_logo_512x512.paa";
+				text = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_default.paa";
 				x = -27.5 * GUI_GRID_W + GUI_GRID_X;
 				y = -9.5 * GUI_GRID_H + GUI_GRID_Y;
 				w = 12 * GUI_GRID_W;
@@ -35,7 +36,7 @@ class RscTitles
 				// TOP RIGHT IMAGE
 				idc = 2002;
 				style = ST_PICTURE + ST_KEEP_ASPECT_RATIO;
-				text = "\z\grad_clipOverlay\addons\main\images\grad_logo_512x512.paa";
+				text = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_default.paa";
 				x = 55.5 * GUI_GRID_W + GUI_GRID_X;
 				y = -9.5 * GUI_GRID_H + GUI_GRID_Y;
 				w = 12 * GUI_GRID_W;
@@ -46,7 +47,7 @@ class RscTitles
 				// BOTTOM LEFT IMAGE
 				idc = 2003;
 				style = ST_PICTURE + ST_KEEP_ASPECT_RATIO;
-				text = "\z\grad_clipOverlay\addons\main\images\grad_logo_512x512.paa";
+				text = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_default.paa";
 				x = -27.5 * GUI_GRID_W + GUI_GRID_X;
 				y = 25.5 * GUI_GRID_H + GUI_GRID_Y;
 				w = 12 * GUI_GRID_W;
@@ -57,7 +58,7 @@ class RscTitles
 				// BOTTOM RIGHT IMAGE
 				idc = 2004;
 				style = ST_PICTURE + ST_KEEP_ASPECT_RATIO;
-				text = "\z\grad_clipOverlay\addons\main\images\grad_logo_512x512.paa";
+				text = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_default.paa";
 				x = 55.5 * GUI_GRID_W + GUI_GRID_X;
 				y = 25.5 * GUI_GRID_H + GUI_GRID_Y;
 				w = 12 * GUI_GRID_W;
@@ -201,6 +202,8 @@ class ClipOverlayConfig
 			colorBackground[] = {0.8196,0.5647,0.12157,0.5};
 
 			tooltip = "Simply use filename of an image, if the file is directly in mission folder. Or use subfolder\file if the file resists in an subfolder.\nFiles in mod folders use filepaths like '\z\grad_clipOverlay\addons\main\images\grad_clipOverlay_logo_512x512.paa'";
+
+			onSetFocus = "_display = findDisplay 43000; _dropDownImagePath = _display displayCtrl 4601; _dropDownImagePath lbSetCurSel 0;";
 		};
 		class RscText_4301: RscText
 		{
@@ -409,65 +412,111 @@ class ClipOverlayConfig
 
 			action = "[[] call GRAD_FNC_defaultClipOverlaySettings] call GRAD_fnc_applySettingsToClipOverlayDialog;";
 		};
-		class RscButton_4505: RscButton
+		class RscCombo_4601: RscCombo
 		{
-			idc = 4505;
-			text = "GRAD Watermark White";
+			idc = 4601;
 			x = 7.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 13 * GUI_GRID_H + GUI_GRID_Y;
-			w = 10 * GUI_GRID_W;
+			w = 32 * GUI_GRID_W;
 			h = 1 * GUI_GRID_H;
 			colorBackground[] = {0.8196,0.5647,0.12157,1};
 
-			action = "['\z\grad_clipOverlay\addons\main\images\grad_watermark_512x512_white.paa'] call GRAD_fnc_setClipOverlayDialogImagePath;";
-		};
-		class RscButton_4506: RscButton
-		{
-			idc = 4506;
-			text = "GRAD Watermark Black";
-			x = 18.5 * GUI_GRID_W + GUI_GRID_X;
-			y = 13 * GUI_GRID_H + GUI_GRID_Y;
-			w = 10 * GUI_GRID_W;
-			h = 1 * GUI_GRID_H;
-			colorBackground[] = {0.8196,0.5647,0.12157,1};
+			class Items
+			{
+				class Item_0
+				{
+					text = "";
+					data = "";
+					default = 1;
+				};
+				class Item_1
+				{
+					text = "Dummy";
+					data = "\z\grad_clipOverlay\addons\main\images\dummy_512x512.paa";
+				};
+				class Item_2
+				{
+					text = "Gruppe Adler Logo";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_default.paa";
+				};
+				class Item_3
+				{
+					text = "Adlerkopp";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_adlerkopp.paa";
+				};
+				class Item_4
+				{
+					text = "Watermark White";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_watermark_white.paa";
+				};
+				class Item_5
+				{
+					text = "Watermark Black";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_watermark_black.paa";
+				};
+				class Item_6
+				{
+					text = "Tracks'n'Traps White";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_tnt_white.paa";
+				};
+				class Item_7
+				{
+					text = "Tracks'n'Traps Black";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_tnt_black.paa";
+				};
+				class Item_8
+				{
+					text = "Breaking Contact White";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_bc_white.paa";
+				};
+				class Item_9
+				{
+					text = "Breaking Contact Black";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_bc_black.paa";
+				};
+				class Item_10
+				{
+					text = "GRAD Captive Walking";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_captive_walking.paa";
+				};
+				class Item_11
+				{
+					text = "GRAD Civs";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_civs.paa";
+				};
+				class Item_12
+				{
+					text = "GRAD Sling Helmet";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_sling_helmet.paa";
+				};
+				class Item_13
+				{
+					text = "GRAD Trenches";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_trenches.paa";
+				};
+				class Item_14
+				{
+					text = "GRAD Error";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_error.paa";
+				};
+				class Item_15
+				{
+					text = "GRAD Nam";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_nam.paa";
+				};
+				class Item_16
+				{
+					text = "HLY SHT White";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_hly_sht_white.paa";
+				};
+				class Item_17
+				{
+					text = "HLY SHT Black";
+					data = "\z\grad_clipOverlay\addons\main\images\grad_logos_512x512_hly_sht_black.paa";
+				};
+			};
 
-			action = "['\z\grad_clipOverlay\addons\main\images\grad_watermark_512x512_black.paa'] call GRAD_fnc_setClipOverlayDialogImagePath;";
-		};
-		class RscButton_4507: RscButton
-		{
-			idc = 4507;
-			text = "Gruppe Adler Logo";
-			x = 29.5 * GUI_GRID_W + GUI_GRID_X;
-			y = 13 * GUI_GRID_H + GUI_GRID_Y;
-			w = 10 * GUI_GRID_W;
-			h = 1 * GUI_GRID_H;
-			colorBackground[] = {0.8196,0.5647,0.12157,1};
-
-			action = "['\z\grad_clipOverlay\addons\main\images\grad_logo_512x512.paa'] call GRAD_fnc_setClipOverlayDialogImagePath;";
-		};
-		class RscButton_4508: RscButton
-		{
-			idc = 4508;
-			text = "GRAD clipOverlay Logo";
-			x = 7.5 * GUI_GRID_W + GUI_GRID_X;
-			y = 14.5 * GUI_GRID_H + GUI_GRID_Y;
-			w = 10 * GUI_GRID_W;
-			h = 1 * GUI_GRID_H;
-			colorBackground[] = {0.8196,0.5647,0.12157,1};
-
-			action = "['\z\grad_clipOverlay\addons\main\images\grad_clipOverlay_logo_512x512.paa'] call GRAD_fnc_setClipOverlayDialogImagePath;";
-		};
-		class RscButton_4509: RscButton
-		{
-			idc = 4509;
-			text = "Dummy";
-			x = 18.5 * GUI_GRID_W + GUI_GRID_X;
-			y = 14.5 * GUI_GRID_H + GUI_GRID_Y;
-			w = 10 * GUI_GRID_W;
-			h = 1 * GUI_GRID_H;
-			colorBackground[] = {0.8196,0.5647,0.12157,1};
-
-			action = "['\z\grad_clipOverlay\addons\main\images\dummy_512x512.paa'] call GRAD_fnc_setClipOverlayDialogImagePath;";
+			onLBSelChanged = "params ['_control', '_selectedIndex']; _display = findDisplay 43000; _editBoxImagePath = _display displayCtrl 4203; _editBoxImagePath ctrlSetText (_control lbData _selectedIndex);";
 		};
 	};
 };

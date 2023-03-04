@@ -1,23 +1,16 @@
 name = "Gruppe Adler Clip Overlay";
 dir = "@grad_clipOverlay";
-
-author = "y0014984";
 description = "Gruppe Adler Clip Overlay v0.2.0";
-
-actionName = "GitHub";
-action = "https://github.com/gruppe-adler/grad_clipoverlay";
-
-logo = "grad_clipOverlay_logo_256x256.paa";
-logoOver = "grad_clipOverlay_logo_256x256_hover.paa";
-
+author = "y0014984";
+logo = "logo_ca.paa";
+logoOver = "logo_active_ca.paa";
 tooltip = "Gruppe Adler Clip Overlay";
-tooltipOwned = "Gruppe Adler Clip Overlay tooltipOwned";
-
-picture = "grad_clipOverlay_logo_1024x512.paa";
-overview = "Gruppe Adler Clip Overlay is a mod, that allows you to activate an in-game-overlay with customizable headline, text and images. So you don't need to edit your in-game clips and videos.";
-
-
-// hideName = 0; // Hide the extension name
-// hidePicture = 0; // Hide the extension menu
-// dlcColor[] = {0.23,0.39,0.30,1}; // Color used for DLC stripes and backgrounds (RGBA)
-// logoSmall = "files\ic_small.paa"; // Display in creative lists, next to the entities added by the mod
+tooltipOwned = "Gruppe Adler Clip Overlay";
+picture = "overview_co.paa";
+actionName = "GitHub";
+action = "https://github.com/gruppe-adler/grad_clipOverlay";
+overview = "<br/><t align='center' size='0.75'>Visit Gruppe Adler on <t href='https://gruppe-adler.de/'>our Website</t> | <t href='http://discord.gruppe-adler.de'>Discord</t> | <t href='https://www.youtube.com/user/gruppeadler'>YouTube</t> | <t href='https://twitter.com/Gruppe_Adler'>Twitter</t></t><br/><br/>Gruppe Adler Clip Overlay is a mod for Arma 3, which adds a overlay for clips/videos.";
+hideName = 0;
+hidePicture = 0;
+dlcColor[] = {0.8196, 0.5529, 0.1216, 1};
+logoSmall = "logo_small_ca.paa";

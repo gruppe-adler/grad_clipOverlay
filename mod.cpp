@@ -1,6 +1,6 @@
 name = "Gruppe Adler Clip Overlay";
 dir = "@grad_clipOverlay";
-description = "Gruppe Adler Clip Overlay v0.2.0";
+description = "Gruppe Adler Clip Overlay v0.2.1";
 author = "y0014984";
 logo = "logo_ca.paa";
 logoOver = "logo_active_ca.paa";
